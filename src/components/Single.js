@@ -14,8 +14,8 @@ export default function Single({product}) {
   const singleimg = product.imageUrls[0];
 
   return (
-    <div className=" bg-black cabin text-white flex items-center justify-center p-6">
-      <div className="grid md:grid-cols-2 gap-10 my-[25px] max-w-5xl w-full">
+    <div className=" bg-black cabin text-black flex items-center  justify-center p-6">
+      <div className="grid md:grid-cols-2 gap-10 bg-white md:px-20 px-5 py-5 md:py-10 rounded-4xl my-[25px] max-w-7xl mx-auto w-full">
         {/* Product Image (mobile first) */}
         <div className="flex items-center border-2 justify-center order-1 md:order-2">
           <Image
@@ -31,21 +31,21 @@ export default function Single({product}) {
         <div className="space-y-6 order-2 md:order-1">
           {/* Title */}
           <h1 className="text-2xl font-bold">{product.article}</h1>
-          <h2 className="text-white text-sm">{product.name}</h2>
+          <h2 className=" text-sm">{product.name}</h2>
 
           {/* Price */}
           <p className="text-xl">$ {product.price}</p>
-          <p className="text-white text-sm mt-1">Note: Confirm the Price through Chat</p>
+          <p className=" text-sm mt-1">Note: Confirm the Price through Chat</p>
 
           {/* Description */}
           <div>
             <h2 className="font-semibold">Product Description</h2>
-            <p className="text-white text-sm">
+            <p className=" text-sm">
              {product.description}
             </p>
           </div>
 
-          <div className="h-px bg-white" />
+          <div className="h-px bg-black" />
 
           {/* Size Selection */}
           <div>

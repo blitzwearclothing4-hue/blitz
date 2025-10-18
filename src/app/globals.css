@@ -4,6 +4,10 @@
   font-family: var(--font-roboto);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme inline {
 
   --font-sans: var(--font-geist-sans);

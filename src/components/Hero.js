@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import g3 from "../../public/images/hero.jpg";
 
 
-import Navbar from "./Navbar";
+
 
 export default function Hero() {
   const [isMounted, setIsMounted] = useState(false);

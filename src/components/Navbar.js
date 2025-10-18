@@ -109,6 +109,8 @@ export default function Navbar() {
                     { name: "T-Shirts", href: "/categories/t-shirts" },
                     { name: "Tracksuits", href: "/categories/tracksuits" },
                     { name: "Shorts", href: "/categories/shorts" },
+                    { name: "Leggings Women", href: "/categories/leggings-women" },
+                    { name: "Beanies", href: "/categories/beanies" },
                   ].map((item, i) => (
                     <li key={i} className="border-b border-gray-300 py-2">
                       <Link
@@ -188,6 +190,8 @@ export default function Navbar() {
                     { name: "Cheerleading Uniform", href: "/categories/cheerleading-uniform" },
                     { name: "Volleyball Uniform", href: "/categories/volleyball-uniform" },
                     { name: "Ice Hockey Uniform", href: "/categories/ice-hockey-uniform" },
+                    { name: "Backpack bags", href: "/categories/backpack-bags" },
+                    { name: "Sport Caps", href: "/categories/sports-caps" },
                   ].map((item, i) => (
                     <li key={i} className="border-b border-gray-300 py-2">
                       <Link

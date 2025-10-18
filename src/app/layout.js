@@ -3,6 +3,7 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import { CartProvider } from "@/context/CartContext";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,6 +26,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
+  
   return (
     <html lang="en">
       <body

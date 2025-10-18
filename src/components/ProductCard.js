@@ -33,9 +33,9 @@ export default function ProductCard({ product }) {
    
                {/* Product details */}
                <div className="mt-3 text-center cabin ">
-                 <p className="text-[10px] uppercase tracking-wide text-white">{product.article}</p>
-                 <p className="text-sm md:text-base font-medium text-white">{product.name}</p>
-                 <p className="text-[11px] text-white ">$ {product.price}</p>
+                 <p className="text-[10px] uppercase tracking-wide text-black">{product.article}</p>
+                 <p className="text-sm md:text-base font-medium text-black">{product.name}</p>
+                 <p className="text-[11px] text-black ">$ {product.price}</p>
                </div>
                 </Link>
 

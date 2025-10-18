@@ -1,14 +1,19 @@
 "use client";
 
 import Image from "next/image";
-import aboutImg from "../../public/images/about.jpg"; // change this to your actual image
+import aboutImg from "../../public/images/about.jpg";
+import { motion } from "framer-motion"; // change this to your actual image
 
 export default function About() {
   return (
     <section className="bg-black roboto text-white py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Text Section */}
-        <div className="md:w-1/2 text-center md:text-left">
+        <motion.div 
+         initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+        className="md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl md:text-5xl  mb-6 roboto">
             About Us
           </h2>
@@ -23,7 +28,7 @@ export default function About() {
             Every piece we make reflects precision, durability, and a passion for design — 
             built for those who lead, move, and inspire.
           </p>
-        </div>
+        </motion.div>
 
         {/* Image Section */}
         <div className="md:w-1/2 w-full">

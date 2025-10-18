@@ -10,6 +10,8 @@ import InclusivePricing from "@/components/InclusivePricing";
 import Navbar from "@/components/Navbar";
 import NewsletterForm from "@/components/NewsLetter";
 import ProductCarousel from "@/components/ProductCarousel";
+import WhatsappBtn from "@/components/WhatsappBtn";
+import WhatsAppButton from "@/components/WhatsappBtn";
 import WorkingProcess from "@/components/WorkingProcess";
 
 
@@ -27,6 +29,7 @@ export default function Home() {
       <CertificationPartners/>
       <NewsletterForm/>
       <Footer/>
+      <WhatsappBtn/>
     </div>
   );
 }

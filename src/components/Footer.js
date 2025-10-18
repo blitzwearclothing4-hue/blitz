@@ -100,6 +100,8 @@ export default function Footer() {
                   <li><Link href="/categories/t-shirts" className="hover:opacity-75">T-Shirts</Link></li>
                   <li><Link href="/categories/tracksuits" className="hover:opacity-75">Tracksuits</Link></li>
                   <li><Link href="/categories/shorts" className="hover:opacity-75">Shorts</Link></li>
+                  <li><Link href="/categories/leggings-women" className="hover:opacity-75">Leggings Women</Link></li>
+                  <li><Link href="/categories/beanies" className="hover:opacity-75">Beanies</Link></li>
                 </ul>
               </div>
 
@@ -123,6 +125,8 @@ export default function Footer() {
                   <li><Link href="/categories/cheerleading-uniform" className="hover:opacity-75">Cheerleading Uniform</Link></li>
                   <li><Link href="/categories/volleyball-uniform" className="hover:opacity-75">Volleyball Uniform</Link></li>
                   <li><Link href="/categories/ice-hockey-uniform" className="hover:opacity-75">Ice Hockey Uniform</Link></li>
+                  <li><Link href="/categories/backpack-bags" className="hover:opacity-75">Backpack bags</Link></li>
+                  <li><Link href="/categories/sports-caps" className="hover:opacity-75">Sport Caps</Link></li>
                 </ul>
               </div>
             </motion.div>
