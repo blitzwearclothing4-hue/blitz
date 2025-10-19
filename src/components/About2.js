@@ -18,7 +18,7 @@ export default function About2() {
         <Image
           src={hero}
           alt="hero2"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover "
           priority // ✅ avoids Next.js warning for LCP image
         />
       </div>
